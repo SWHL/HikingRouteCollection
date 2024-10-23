@@ -125,6 +125,6 @@ markdown_extensions:
 
 
 nav:
-  - 概览: index.md
+  - 徒步路线合集: index.md
   - 北京周边路线合集:
     - 蟠龙山长城11km穿越: bei_jing/蟠龙山长城.md
