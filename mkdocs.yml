@@ -71,7 +71,8 @@ theme:
       quote: octicons/quote-16
 
 plugins:
-  - tags
+  - tags:
+      tags_file: tags.md
   - blog:
       archive: false
       post_date_format: short
