@@ -103,6 +103,9 @@ extra:
       link: https://swhl.github.io/HikingRouteCollection/feed_rss_updated.xml
       name: 订阅文档更新
 
+extra_css:
+  - stylesheets/extra.css
+
 markdown_extensions:
   - abbr
   - attr_list
