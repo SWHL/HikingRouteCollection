@@ -92,15 +92,15 @@ plugins:
       date_from_meta:
         as_creation: date.created
         as_update: "git"
-      created_feed_filename: feed_rss_created.xml  # 新建文档RSS文件名
-      updated_feed_filename: feed_rss_updated.xml  # 更新文档RSS文件名
+      created_feed_filename: feeds/feed_rss_created.xml  # 新建文档RSS文件名
+      updated_feed_filename: feeds/feed_rss_updated.xml  # 更新文档RSS文件名
       length: 20  # 每个RSS源展示的最新条目数量
       pretty_print: false  # 是否格式化XML代码（开发时可开启）
 
 extra:
   social:
     - icon: material/rss
-      link: https://swhl.github.io/HikingRouteCollection/feed_rss_updated.xml
+      link: https://swhl.github.io/HikingRouteCollection/feeds/feed_rss_updated.xml
       name: 订阅文档更新
 
 markdown_extensions:
